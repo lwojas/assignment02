@@ -1,0 +1,97 @@
+/*  Styles for assignment 02  */
+
+
+/*-------------------------------------
+
+    IDs and classes 
+
+--------------------------------------*/
+
+#content_area {
+    padding: 2% 10% 5% 10%;
+    background-color: #000000;
+    color:aquamarine;
+}
+
+.body_text {
+    color: aquamarine;
+    padding-bottom: 15em;
+}
+
+.column_left {
+    width: 48%;
+    float: left;
+}
+
+.column_right {
+    width: 48%;
+    float: right;
+}
+
+
+/*-------------------------------------
+
+    Links 
+
+--------------------------------------*/
+
+a:link {
+    text-decoration: none;
+    color: orchid;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+/*-------------------------------------
+
+    HTML elements 
+
+--------------------------------------*/
+
+h1 {
+    font-family: "Georgia", Georgia, Georgia, sans-serif;
+    text-align: center;
+	color: aqua;
+    font-size: 45px;
+}
+
+h2 {
+	font-family: "Georgia", Georgia, Georgia, sans-serif;
+	text-align: center;
+    font-size: 30px;
+    clear: left;
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 19px;
+}
+
+ul {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+span {
+	text-transform: uppercase;
+}
+
+hr {
+    width: 75%;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
